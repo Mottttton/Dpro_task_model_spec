@@ -234,12 +234,14 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  arm64-darwin-23
   x86_64-darwin-19
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  diff-lcs (= 1.4.4)
   listen (~> 3.2)
   puma (~> 4.1)
   rails (= 6.1.7.6)
